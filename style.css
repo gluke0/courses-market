@@ -75,7 +75,7 @@ header{
     gap: 25px;
     background-color: #dad8d8;
     opacity: 0.8;
-    background-image:  radial-gradient(#373c37 0.75px, transparent 0.75px), radial-gradient(#373c37 0.75px, #dad8d8 0.75px);
-    background-size: 30px 30px;
+    background-image:  radial-gradient(#373c37 0.80px, transparent 0.80px), radial-gradient(#373c37 0.80px, #dad8d8 0.80px);
+    background-size: 35px 35px;
     background-position: 0 0,15px 15px;
 }
