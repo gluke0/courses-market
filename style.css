@@ -2,6 +2,11 @@
 
 :root{
     --backround-main: #dad8d8;
+    --background-darker: #aba9a9;
+    --hover-color: #373c52;
+    --main-text: #000000;
+    --almost-main-text: #666666;
+
 }
 
 /* reset + font */
@@ -14,16 +19,16 @@
 
 a{
     text-decoration: none;
-    color: black;
+    color: var(--main-text);
     transition: all 0.3s ease;
 }
 
 a:hover{
-    color: #373c52;
+    color: var(--hover-color);
 }
 
 body{
-    background-color: #aba9a9;
+    background-color: var(--background-darker);
 }
 
 /* navbar */
@@ -62,7 +67,7 @@ nav .buttons{
 }
 
 nav .buttons a{
-    background-color: #aba9a9;
+    background-color: var(--background-darker);
     padding: 10px;
     border-radius: 50%;
     font-size: 18px;
@@ -79,7 +84,7 @@ header{
     gap: 25px;
     background-color: var(--backround-main);
     opacity: 0.8;
-    background-image:  radial-gradient(#373c37 0.80px, transparent 0.80px), radial-gradient(#373c37 0.80px, #dad8d8 0.80px);
+    background-image:  radial-gradient(var(--hover-color) 0.80px, transparent 0.80px), radial-gradient(var(--hover-color) 0.80px, var(--backround-main) 0.80px);
     background-size: 35px 35px;
     background-position: 0 0,15px 15px;
 }
@@ -90,9 +95,10 @@ header .info h1{
 }
 
 header .info p{
-    color: #666;
+    color: var(--almost-main-text);
     font-size: 18px;
     margin-top: 14px;
     font-weight: bold;
     background: var(--backround-main);
 }
+
