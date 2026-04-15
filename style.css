@@ -102,3 +102,23 @@ header .info p{
     background: var(--backround-main);
 }
 
+header .buttons{
+    display: flex;
+    gap: 14px;
+    margin-top: 10px;
+}
+
+header .buttons button{
+    border: none;
+    padding: 8px;
+    width: 140px;
+    border-radius: 10px;
+    background-color: var(--almost-main-text);
+    color: var(--backround-main);
+    cursor: pointer;
+}
+
+header .buttons button.see-all{
+    background-color: var(--hover-color); 
+}
+
