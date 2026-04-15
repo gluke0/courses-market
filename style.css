@@ -6,7 +6,7 @@
     --hover-color: #373c52;
     --main-text: #000000;
     --almost-main-text: #666666;
-
+    --content-background: #dadada;
 }
 
 /* reset + font */
@@ -145,4 +145,9 @@ header .search button{
     border: none;
     background-color: transparent;
     cursor: pointer;
+}
+
+.content{
+    background-color: var(--content-background);
+    padding: 100px 80px 0;
 }
