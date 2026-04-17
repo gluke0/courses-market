@@ -318,3 +318,29 @@ footer{
     color: var(--backround-main);
     border-radius: 40px 40px 0 0;
 }
+
+footer .columns{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .columns .col{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+footer .columns .col.last{
+    flex: 3;
+}
+
+footer .columns .col h5{
+    margin-bottom: 14px;
+    font-size: 16px;
+}
+
+footer .columns .col a{
+    margin-bottom: 4px;
+    color: var(--backround-main);
+    font-size: 14px;
+}
