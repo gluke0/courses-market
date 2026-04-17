@@ -254,6 +254,7 @@ header .search button{
     justify-content: space-between;
     gap: 30px;
     margin: 0 0 100px;
+    padding: 0 10rem;
 }
 
 .content .comments > p{
