@@ -7,6 +7,7 @@
     --main-text: #000000;
     --almost-main-text: #666666;
     --content-background: #dadada;
+    --cards-background: #9699af;
 }
 
 /* reset + font */
@@ -191,7 +192,7 @@ header .search button{
 .content .articles .item .bottom{
     display: flex;
     gap: 10px;
-    background-color: var(--backround-main);
+    background-color: var(--cards-background);
     padding: 14px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     border-radius: 18px;
