@@ -218,3 +218,26 @@ header .search button{
     font-size: 13px;
     margin-bottom: 2px;
 }
+
+.content .courses .item .bottom,
+.content .articles .item .bottom{
+    border-bottom: none;
+    justify-content: space-between;    
+    border-top: 1px dashed var(--almost-main-text);
+}
+
+.content .courses .item .bottom .price p{
+    color: var(--almost-main-text);
+    font-size: 13px;
+    text-decoration: line-through;
+}
+
+.content .courses .item .bottom h5.tag,
+.content .articles .item .bottom h5{
+    font-weight: 500;
+    background-color: var(--background-darker);
+    color: var(--hover-color);
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 13px;
+}
