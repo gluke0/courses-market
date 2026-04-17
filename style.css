@@ -227,6 +227,11 @@ header .search button{
     border-top: 1px dashed var(--almost-main-text);
 }
 
+.content .courses .item .bottom .price{
+    align-items: center;
+    display: flex;
+}
+
 .content .courses .item .bottom .price p{
     color: var(--almost-main-text);
     font-size: 13px;
