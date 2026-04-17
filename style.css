@@ -147,6 +147,7 @@ header .search button{
     cursor: pointer;
 }
 
+/* content */
 .content{
     background-color: var(--content-background);
     padding: 100px 80px 0;
@@ -288,4 +289,21 @@ header .search button{
 
 .content .comments .right .item p{
     font-size: 14px;
+}
+
+/* articles */
+.content .articles{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.content .articles .item{
+    width: 23%;
+}
+
+.content .articles .item .top{
+    flex-direction: column;
 }
