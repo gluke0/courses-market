@@ -204,3 +204,17 @@ header .search button{
     object-fit: cover;
     border-radius: 8px;
 }
+
+.content .courses .item .top .info a{
+    display: block;
+    font-size: 15px;
+    font-weight: 900;
+    margin-bottom: 8px;
+    line-height: 1.4rem;
+}
+
+.content .courses .item .top .info p{
+    color: var(--almost-main-text);
+    font-size: 13px;
+    margin-bottom: 2px;
+}
