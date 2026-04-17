@@ -147,7 +147,6 @@ header .search button{
     cursor: pointer;
 }
 
-/* content */
 .content{
     background-color: var(--content-background);
     padding: 100px 80px 0;
