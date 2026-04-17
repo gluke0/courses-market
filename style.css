@@ -307,3 +307,14 @@ header .search button{
 .content .articles .item .top{
     flex-direction: column;
 }
+
+/* footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 100px 30px;
+    background-color: var(--hover-color);
+    color: var(--backround-main);
+    border-radius: 40px 40px 0 0;
+}
