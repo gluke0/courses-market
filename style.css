@@ -263,7 +263,7 @@ header .search button{
 
 .content .comments .right{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     row-gap: 14px;
 }
@@ -293,7 +293,7 @@ header .search button{
 /* articles */
 .content .articles{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 80px;
     flex-wrap: wrap;
     row-gap: 20px;
