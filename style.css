@@ -344,3 +344,30 @@ footer .columns .col a{
     color: var(--backround-main);
     font-size: 14px;
 }
+
+footer .columns .col a:hover{
+    color: #ffffff;
+}
+
+footer .columns .col.last p{
+    font-size: 14px;
+    margin-bottom: 14px;
+    font-style: italic;
+}
+
+footer .columns .col.last .social-links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .columns .col.last .social-links i{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+footer .copyright{
+    margin-top: 50px;
+    font-size: 13px;
+    font-style: italic;
+}
