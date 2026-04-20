@@ -290,7 +290,7 @@ header .search button{
     width: 32px;
     height: 32px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 10px;
 }
 
 .content .comments .right .item p{
