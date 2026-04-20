@@ -503,3 +503,29 @@ footer .copyright{
     }
 
 }
+
+@media screen and (max-width:576px) {
+    
+    nav .left .links a:nth-child(5),
+    nav .left .links a:nth-child(6){
+        display: none;
+    }
+
+    .content .courses .item .top img{
+        width: 100%;
+        height: 140px;
+    }
+
+    .content .comments{
+        padding: 0 2rem;    
+    }
+
+    .content .comments .right .item p{
+        font-size: 13px;
+    }
+
+    footer{
+        padding: 60px 30px 30px;
+    }
+
+}
