@@ -186,6 +186,11 @@ header .search button{
     width: 30%;
 }
 
+.content .courses .item:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
 .content .courses .item .top,
 .content .courses .item .bottom,
 .content .articles .item .top,
