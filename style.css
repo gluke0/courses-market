@@ -412,11 +412,6 @@ footer .copyright{
         text-align: center;
     }
 
-    .content .courses .item .bottom .discount > h5{
-        width: 70%;
-        text-align: center;
-    }
-
     .content .comments{
         flex-direction: column;
     }
@@ -424,6 +419,38 @@ footer .copyright{
     .content .comments > p{
         width: 100%;
         font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 940px){
+    
+    nav .left .logo{
+        display: none;
+    }
+
+    .content .courses .item,
+    .content .articles .item{
+        width: 45%;
+    }
+
+    .content .comments .right .item{
+        width: 48%;
+    }
+
+    footer{
+        padding: 60px 70px 30px;
+    }
+
+    footer .columns{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    footer .columns .col,
+    footer .columns .col.last{
+        width: 45%;
+        flex: none;
     }
 
 }
