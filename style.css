@@ -434,6 +434,10 @@ footer .copyright{
         width: 45%;
     }
 
+    .content .comments{
+        padding: 0 5rem;    
+    }
+
     .content .comments .right .item{
         width: 48%;
     }
