@@ -119,6 +119,10 @@ header .buttons button{
     cursor: pointer;
 }
 
+header .buttons button:hover, .social-links i:hover{
+    transform: scale(1.01);
+}
+
 header .buttons button.see-all{
     background-color: var(--hover-color); 
 }
