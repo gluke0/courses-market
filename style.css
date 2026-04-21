@@ -119,7 +119,7 @@ header .buttons button{
     cursor: pointer;
 }
 
-header .buttons button:hover, .social-links i:hover{
+header .buttons button:hover, .social-links i:hover, nav .buttons a:hover{
     transform: scale(1.01);
 }
 
